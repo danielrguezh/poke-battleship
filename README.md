@@ -1,10 +1,10 @@
 # poke-battleship
-**Kyogre 2x2 
+__Kyogre 2x2__ 
 
-  Gyarados 1x6
+  __Gyarados 1x6__ 
   
-  Wailord 2x3
+ __Wailord 2x3__ 
   
-  Ducklet 1x1 
+  __Ducklet 1x1__ 
   
-  Palafin 1x2 **
+  __Palafin 1x2__

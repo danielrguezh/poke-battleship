@@ -1,6 +1,6 @@
 # poke-battleship
-**Kyogre 2*2 
-  Gyarados 1*6
-  Wailord 2*3
-  Ducklet 1*1 
-  Palafin 1*2 **
+**Kyogre 2x2 
+  Gyarados 1x6
+  Wailord 2x3
+  Ducklet 1x1 
+  Palafin 1x2 **

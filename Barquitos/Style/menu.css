@@ -1,0 +1,51 @@
+.background {
+    background-image: url('/Barquitos/Style/image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  .play-button {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .cerrar-button {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 500px;
+    z-index: 10;
+  }
+
+  .yaguas {
+    position:absolute;
+    top: 55%;
+    right: 1%;
+    width: 450px;
+    z-index: 10;
+  }

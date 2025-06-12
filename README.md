@@ -1,7 +1,7 @@
 # poke-battleship
-__Kyogre 2x2__ 
+ __Kyogre 2x2__ 
 
-  __Gyarados 1x6__ 
+  __Gyarados 1x4__ 
   
  __Wailord 2x3__ 
   

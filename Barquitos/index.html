@@ -2,13 +2,38 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Hundir la Flota</title>
+  <title>Batalla Naval</title>
   <link rel="stylesheet" href="Style/style.css">
 </head>
 <body>
-  <h1>Hundir la Flota</h1>
-  <div id="enemy-board" class="board"></div>
-  <p id="message">Dispara haciendo clic en una casilla.</p>
+
+  <h1>Batalla Naval</h1>
+  <div id="message">Coloca tus barcos</div>
+
+  <div class="boards">
+    <div>
+      <h2>Tu tablero</h2>
+      <div id="player-board" class="board"></div>
+    </div>
+    <div>
+      <h2>Tablero enemigo</h2>
+      <div id="enemy-board" class="board"></div>
+    </div>
+  </div>
+
+  <div id="fleet">
+    <div class="ship" data-size="5" draggable="true" style="width:150px; height:30px;"></div>
+    <div class="ship" data-size="4" draggable="true" style="width:120px; height:30px;"></div>
+    <div class="ship" data-size="3" draggable="true" style="width:90px; height:30px;"></div>
+    <div class="ship" data-size="3" draggable="true" style="width:90px; height:30px;"></div>
+    <div class="ship" data-size="2" draggable="true" style="width:60px; height:30px;"></div>
+  </div>
+
+  <button id="start-game-button">Iniciar juego</button>
+
+  <audio id="hit-sound" src="hit.mp3" preload="auto"></audio>
+  <audio id="miss-sound" src="miss.mp3" preload="auto"></audio>
+
   <script src="script.js"></script>
 </body>
 </html>

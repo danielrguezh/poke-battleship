@@ -1,4 +1,12 @@
+
+
 body {
+  background-image: url('/Barquitos/Style/image/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #e0f7fa;
